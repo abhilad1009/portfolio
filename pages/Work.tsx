@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { WorkExperience, Education } from '../types';
+import { Education, WorkExperience } from '../types';
 
 import AsciiCityWalk from '../components/AsciiCityWalk';
 
@@ -37,7 +37,7 @@ const education: Education[] = [
     degree: "M.S. Computer Science (ML track)",
     institution: "Columbia University",
     year: "2022 - 2023"
-  }
+  },
   {
     id: 2,
     degree: "B.Tech. Computer Engineering",
