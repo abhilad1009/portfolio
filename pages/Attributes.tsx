@@ -76,7 +76,7 @@ const vibesData: (SkillCategory & { icon: React.ElementType, desc: string })[] =
     name: "Artsy Things",
     icon: Palette,
     desc: "In touch with my creative side.",
-    items: ["Painting", "Poetry", "Tabla", "Cooking", "Storytelling"]
+    items: ["Painting", "Poetry", "Cooking", "Improvisation", "Storytelling"]
   },
   {
     name: "Animals to Befriend",
