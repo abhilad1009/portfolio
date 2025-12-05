@@ -1,6 +1,6 @@
 
+import { Book, Brain, Cat, Cpu, Gamepad2, Heart, Lightbulb, Network, Palette, Sparkles, ToolCase, Users } from 'lucide-react';
 import React, { useState } from 'react';
-import { Brain, Layers, Cpu, Network, Heart, Users, Sparkles, Lightbulb, Coffee, ToolCase, Gamepad2, Book,Cat } from 'lucide-react';
 import { SkillCategory } from '../types';
 
 // Data Definitions
@@ -67,22 +67,22 @@ const vibesData: (SkillCategory & { icon: React.ElementType, desc: string })[] =
     items: ["Lord of the Rings", "The Selfish Gene", "Art of War","Frankenstein","Thus Spoke Zarathustra"]
   },
   {
-    name: "Animals to Befriend",
-    icon: Cat,
-    desc: "All animals are good animals.",
-    items: ["Cat", "Wolf", "Crow", "Owl"]
-  },
-  {
     name: "Video Games",
     icon: Gamepad2,
     desc: "All work, all play.",
     items: ["God of War", "Uncharted", "Hades", "Dead Cells", "Katana Zero"]
   },
   {
-    name: "Food Staples",
-    icon: Coffee,
-    desc: "What I bring to the table.",
-    items: ["Lemon Soda", "Rice", "Fruits", "Bread", "Veggies"]
+    name: "Artsy Things",
+    icon: Palette,
+    desc: "In touch with my creative side.",
+    items: ["Painting", "Poetry", "Tabla", "Cooking", "Storytelling"]
+  },
+  {
+    name: "Animals to Befriend",
+    icon: Cat,
+    desc: "All animals are good animals.",
+    items: ["Cat", "Wolf", "Crow", "Owl"]
   },
 ];
 
